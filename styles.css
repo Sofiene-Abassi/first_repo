@@ -1,0 +1,40 @@
+h1 { 
+
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+
+.paragraph {
+    color:red;
+}
+
+.yes p{
+
+    color:chartreuse
+}
+
+
+div:hover {
+ background-color: saddlebrown;
+color:red;
+}
+
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }

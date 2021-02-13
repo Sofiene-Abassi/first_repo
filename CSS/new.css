@@ -1,0 +1,7 @@
+.flex {
+    display: flex;
+    background-color: DodgerBlue;
+    flex-direction: row;
+    justify-content: center
+    
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping card</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h3>Sofiene's Shop</h3>
+            <ul>
+                <li> <i class="fas fa-home"> Home</i> </li>
+                <li> <i class="fas fa-shopping-cart"> My Card</i> </li>
+                <li> <i class="fas fa-sign-out-alt"> Logout</i> </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="list-items">
+            <div class="total_price">
+                <h1>Total : <span id="total">0</span> £</h1>
+            </div>
+
+            
+            <div class="product_item" id="item_1">
+                <img src="laptop.png" alt="tnf">
+                <h2> <span id="item_1_price">500</span>£</h2>
+                <button type="button" class="btn btn-primary minus" name='item_1'>-</button>
+                <h2 id="item_1_qty">0</h2>
+                <button type="button" class="btn btn-primary plus" name='item_1'>+</button>
+                <button type="button" class="btn btn-danger delete" name='item_1'>delete</button>
+                <i class="fas fa-heart" style="font-size: 34px;" name='item_1' id="item_1_like"></i>
+            </div>
+
+            
+            <div class="product_item" id="item_2">
+                <img src="xbox.png" id="imm" alt="tnf">
+                <h2> <span id="item_2_price">100</span>£</h2>
+                <button type="button" class="btn btn-primary minus" name='item_2'>-</button>
+                <h2 id="item_2_qty">0</h2>
+                <button type="button" class="btn btn-primary plus" name='item_2'>+</button>
+                <button type="button" class="btn btn-danger delete" name='item_2'>delete</button>
+                <i class="fas fa-heart" style="font-size: 34px;" name='item_2' id="item_2_like"></i>
+            </div>
+            
+            <div class="product_item" id="item_3">
+                <img src="ps3.png" alt="tnf">
+                <h2> <span id="item_3_price">200</span>£</h2>
+                <button type="button" class="btn btn-primary minus" name='item_3'>-</button>
+                <h2 id="item_3_qty">0</h2>
+                <button type="button" class="btn btn-primary plus" name='item_3'>+</button>
+                <button type="button" class="btn btn-danger delete" name='item_3'>delete</button>
+                <i class="fas fa-heart " style="font-size: 34px;" name='item_3' id="item_3_like"> </i>
+            </div>
+
+
+
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
